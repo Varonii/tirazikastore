@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho | TiraZika Store</title>
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/style-secundaria.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="pagina-carrinho">
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li>
+                    <img src="images/LogoTiraZica.png" alt="Logo TiraZica Store" width="150px" height="70px">
+                </li>
+                <li><a href="#" class="busca">🔍 Buscar produtos</a></li>
+                <div class="nav-direita">
+                    <li class="elem-navbar"><a href="index.html">Produtos em destaque</a></li>
+                    <li class="elem-navbar"><a href="carrinho.html">Carrinho</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="carrinho">
+            <h2>Meu carrinho</h2>
+
+            <div class="carrinho-layout">
+                <div class="carrinho-itens">
+                    <article class="item">
+                        <img src="images/rtx5090.jpg" alt="Placa de vídeo NVIDIA GeForce RTX 5090" width="90"
+                            height="90">
+                        <div class="item-info">
+                            <h3>NVIDIA GeForce RTX 5090</h3>
+                            <p>Memória: 32GB GDDR7</p>
+                            <p class="estoque">Em estoque</p>
+                        </div>
+                        <p class="item-preco">R$ 18.999,90</p>
+                        <p class="remover">🗑</p>
+                    </article>
+
+                    <article class="item">
+                        <img src="images/ryzen9.jpg" alt="Processador AMD Ryzen 9 9950X3D" width="90" height="90">
+                        <div class="item-info">
+                            <h3>Processador AMD Ryzen 9 9950X3D</h3>
+                            <p>16 núcleos / 32 threads</p>
+                            <p class="estoque">Em estoque</p>
+                        </div>
+                        <p class="item-preco">R$ 4.799,90</p>
+                        <p class="remover">🗑</p>
+                    </article>
+
+                    <a href="#" class="cupom">
+                        <span>Cupom de desconto</span>
+                        <span>+</span>
+                    </a>
+
+                    <a href="index.html" class="voltar">← Voltar para a loja</a>
+                </div>
+
+                <aside class="resumo">
+                    <h3>Resumo do pedido</h3>
+                    <div class="resumo-linha">
+                        <span>Subtotal</span>
+                        <span>R$ 23.799,80</span>
+                    </div>
+                    <div class="resumo-linha">
+                        <span>Frete</span>
+                        <span class="gratis">Grátis</span>
+                    </div>
+                    <div class="resumo-linha total">
+                        <span>Total</span>
+                        <span>R$ 23.799,80</span>
+                    </div>
+                    <button type="button" class="btn-finalizar">Ir para pagamento</button>
+                </aside>
+            </div>
+        </section>
+        <br><br><br>
+    </main>
+
+    <footer>
+        <p>© 2026 TiraZika Store.</p>
+    </footer>
+</body>
+
+</html>
